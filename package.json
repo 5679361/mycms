@@ -1,10 +1,13 @@
 {
   "name": "mycms",
-  "version": "1.0.0",
+  "version": "0.0.0",
+  "author": "zhiyan",
+  "license": "ISC",
   "description": "mycms",
   "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -13,8 +16,15 @@
   "keywords": [
     "cms"
   ],
-  "author": "zhiyan",
-  "license": "ISC",
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
+  },
   "bugs": {
     "url": "https://github.com/5679361/mycms/issues"
   },
