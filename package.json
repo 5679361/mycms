@@ -1,0 +1,22 @@
+{
+  "name": "mycms",
+  "version": "1.0.0",
+  "description": "mycms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5679361/mycms.git"
+  },
+  "keywords": [
+    "cms"
+  ],
+  "author": "zhiyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5679361/mycms/issues"
+  },
+  "homepage": "https://github.com/5679361/mycms#readme"
+}
